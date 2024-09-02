@@ -1,4 +1,4 @@
-﻿#Python Snake Classic Singeplayer/Multiplayer v0.1 Beta (By Ryhan.N)
+﻿#Python Snake Classic Singleplayer/Multiplayer v0.1 Beta (By Ryhan.N)
 #Pending:
 #1) sound (high delay when experimenting)
 version = "v0.1 Beta"
