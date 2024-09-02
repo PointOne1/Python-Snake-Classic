@@ -1,4 +1,4 @@
-﻿#Python Snake Classic Singleplayer/Multiplayer v0.1 Beta (By Ryhan.N)
+﻿#Python Snake Classic Singleplayer/Multiplayer v0.1 Beta (By PointOne1)
 #Pending:
 #1) sound (high delay when experimenting)
 version = "v0.1 Beta"
@@ -26,7 +26,7 @@ def merge(s1, s2):
 #function for printing string in specific coordinates on screen
 def cbstring(a="", x=1, y=1, z = False):
     '''
-    Coordinate Based Printing Help (By Ryhan.N):
+    Coordinate Based Printing Help (By PointOne1):
     Arg1 (string) = String to be printed
     Arg2 (+int) = X-Coordinate
     Arg3 (+int) = Y-Coordinate
@@ -108,7 +108,7 @@ def left2():
 #gamemode selection (1-Singleplayer, 2-Multiplayer)
 while(1):
     try:
-        gamemode = int(input(f"Welcome to Python Snake Classic {version}! (By Ryhan.N)\n\nGAMEMODES:\n1 -> Singleplayer\n2 -> Multiplayer\n\nYour Choice: "))
+        gamemode = int(input(f"Welcome to Python Snake Classic {version}! (By PointOne1)\n\nGAMEMODES:\n1 -> Singleplayer\n2 -> Multiplayer\n\nYour Choice: "))
         if gamemode == 1 or gamemode == 2:
             break
     except:
@@ -120,9 +120,9 @@ while(1):
 #intro
 print("\033[H\033[J", end='')
 if gamemode == 1:
-    input(f"Welcome to Python Snake Classic Competetive {version}! (By Ryhan.N)\n\nCONTROLS:\nUP ARROW -> Turn up\nDOWN ARROW -> Turn down\nRIGHT ARROW -> Turn right\nLEFT ARROW -> Turn left\n\nRULES:\n1) Don't hit anything!\n2) Eat food to gain points, some give you double points!\n3) Try to score as much as possible!\n\nPRO TIP: You can't rapidly change directions!\n\nPress 'Enter' to continue...")
+    input(f"Welcome to Python Snake Classic Competetive {version}! (By PointOne1)\n\nCONTROLS:\nUP ARROW -> Turn up\nDOWN ARROW -> Turn down\nRIGHT ARROW -> Turn right\nLEFT ARROW -> Turn left\n\nRULES:\n1) Don't hit anything!\n2) Eat food to gain points, some give you double points!\n3) Try to score as much as possible!\n\nPRO TIP: You can't rapidly change directions!\n\nPress 'Enter' to continue...")
 elif gamemode == 2:
-    input(f"Welcome to Python Snake Classic Multiplayer {version}! (By Ryhan.N)\n\nCONTROLS PLAYER 1 (GREEN):\nUP ARROW -> Turn up\nDOWN ARROW -> Turn down\nRIGHT ARROW -> Turn right\nLEFT ARROW -> Turn left\n\nCONTROLS PLAYER 2 (YELLOW):\nW -> Turn up\nS -> Turn down\nD -> Turn right\nA -> Turn left\n\nRULES:\n1) Don't hit anything!\n2) Eat food to gain points, some give you double points!\n3) Snake with the highest point wins!\n\nPRO TIP: You can't rapidly change directions!\n\nPress 'Enter' to continue...")
+    input(f"Welcome to Python Snake Classic Multiplayer {version}! (By PointOne1)\n\nCONTROLS PLAYER 1 (GREEN):\nUP ARROW -> Turn up\nDOWN ARROW -> Turn down\nRIGHT ARROW -> Turn right\nLEFT ARROW -> Turn left\n\nCONTROLS PLAYER 2 (YELLOW):\nW -> Turn up\nS -> Turn down\nD -> Turn right\nA -> Turn left\n\nRULES:\n1) Don't hit anything!\n2) Eat food to gain points, some give you double points!\n3) Snake with the highest point wins!\n\nPRO TIP: You can't rapidly change directions!\n\nPress 'Enter' to continue...")
 
 #load and verify highscores in singleplayer
 if gamemode == 1:
